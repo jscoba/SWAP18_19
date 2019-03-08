@@ -45,7 +45,9 @@ Instalamos ubuntu usando el procedimiento habitual, configurando los nombres de 
 A la hora de elegir el software a instalar seleccionamos LAMP y el servidor de SSH
 
 ![](img/p1_05.png)
+
 Ya tenemos instaladas las dos máquinas virtuales.
+
 ![](img/p1_06.png)
 
 Ahora configuramos de manera manual las direcciones IP de las dos máquinas tanto en la red interna como en la red host-only. De esta manera conseguimos que no nos de problemas al conectarnos si Virtualbox decidiera cambiar las direcciones asignadas de manera automática.
