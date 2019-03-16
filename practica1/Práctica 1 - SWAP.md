@@ -59,3 +59,4 @@ Probamos ahora a ver si ambas máquinas se ven. Esto lo hacemos ya desde termina
 ### Instalación de la máquina balanceadora de carga
 
 La instalación de la máquina para el futuro balanceo de carga lo hacemos igual que con las máquinas anteriores pero sin instalar LAMP, únicamente seleccionando el servidor de SSH.
+
