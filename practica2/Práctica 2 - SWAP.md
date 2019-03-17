@@ -51,9 +51,9 @@ Vemos en el log la ejecución de cron cada minuto. Cabe notar que el archivo `pr
 
 ![](img/p2-cron.png)
 
-## Conclusiónes
+## Conclusiones
 
-Ahora tenemos dos servidores configurados y sincronizados entre sí, por lo que podríamos intercambiarlos y los contenidos servidos via web sería idénticos. Como anotación final podemos decir que los cambios en los archivos únicamente se sincronizan de `SWAP1 -> SWAP2` , por lo que si la primera máquina cayera, habría que detener `rsync` ya que nunca podría completar ninguna copia. Esto se puede hacer implementando algún mecanismo de tipo `heartbeat`. 
+Ahora tenemos dos servidores configurados y sincronizados entre sí, por lo que podríamos intercambiarlos y los contenidos servidos vía web sería idénticos. Como anotación final podemos decir que los cambios en los archivos únicamente se sincronizan de `SWAP1 -> SWAP2` , por lo que si la primera máquina cayera, habría que detener `rsync` ya que nunca podría completar ninguna copia. Esto se puede hacer implementando algún mecanismo de tipo `heartbeat`. 
 
 También cabe recordar que el uso que estamos haciendo aquí de `rsync` es lo más básico posible y que `rsync` se puede personalizar de muchas maneras posibles mediante ficheros externos de configuración o ejecutándolo como servicio del sistema
 
