@@ -62,7 +62,7 @@ Para empezar hacemos simplemente `sudo apt install mysql-server` en ambos servid
 
 ![](imagenes/instalacion_mysql.png)
 
-Una vez que tenemos el servidor seguimos los pasos de la Práctica 4 de la asignatura para configurar la base de datos `wordpress` en modo maestro-esclavo.
+Una vez que tenemos el servidor seguimos los pasos de la Práctica 5 de la asignatura para configurar la base de datos `wordpress` en modo maestro-esclavo.
 
 ![](imagenes/master-slave.png)
 
